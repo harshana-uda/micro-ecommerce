@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+
+    
+}
+
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f6f8;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    padding:2rem 4rem;
+    border-radius: 9px;
+    height: 100%;
+}
+
+
+
+#product-list *{
+    display: flex;
+    gap: 2rem;
+    font-size: 2.0rem;
+    
+}
+
+#cart {
+    font-size: 1.8rem;
+}
